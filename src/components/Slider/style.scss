@@ -5,6 +5,7 @@
   width: 50%;
   height: 300px;
   flex-direction: column;
+
   .value {
     font-size: 18px;
     font-family: JetBrains Mono;
@@ -46,15 +47,7 @@
   appearance: none;
   width: 25px;
   height: 25px;
-  // border-radius: 50%;
-  background: #04aa6d;
-  cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
   border-radius: 50%;
-  background: #04aa6d;
+  background: #fe803d;
   cursor: pointer;
 }

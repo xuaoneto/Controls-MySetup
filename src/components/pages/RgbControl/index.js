@@ -7,7 +7,7 @@ const RgbControl = ({ name }) => {
   return (
     <div className="sliders-container">
       {rows.map((index) => {
-        return <Slider name={`${name}-${index}`} />;
+        return <Slider key={index} name={`${name}-${index}`} />;
       })}
     </div>
   );

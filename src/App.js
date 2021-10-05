@@ -1,6 +1,7 @@
 import "./App.scss";
 import RgbControl from "./components/pages/RgbControl";
 import InsertSVG from "./components/InsertSVG";
+import { useEffect } from "react";
 
 function App() {
   return (
